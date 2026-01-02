@@ -1,0 +1,17 @@
+.hero {
+  display: grid;
+}
+
+.heroBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media (max-width: 960px) {
+  .heroBody {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

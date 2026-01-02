@@ -1,0 +1,27 @@
+.filters {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.filtersHeader h2 {
+  margin: 0;
+}
+
+.filtersHeader p {
+  margin: 4px 0 0;
+}
+
+.filtersInput {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .filters {
+    gap: 10px;
+  }
+
+  .filtersInput {
+    width: 100%;
+  }
+}

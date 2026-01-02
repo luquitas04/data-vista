@@ -1,0 +1,23 @@
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btnPrimary {
+  background: linear-gradient(135deg, #3f8cff, #1453c9);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(63, 140, 255, 0.35);
+}
+
+.btnGhost {
+  background: var(--surface-muted);
+  color: var(--gray-800);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
