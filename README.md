@@ -2,6 +2,8 @@
 
 React + TypeScript app showcasing modern frontend architecture, API consumption, and best practices (FSD + Clean Architecture).
 
+## Demo
+Project demo: <a href="https://d4tavista.netlify.app" target="_blank">
 ## Stack
 - React 18 + TypeScript
 - Vite
