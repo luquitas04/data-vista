@@ -1,6 +1,10 @@
 @import "../../../shared/styles/hero.scss";
 @import "../../../shared/styles/buttons.scss";
 
+.hero {
+  grid-column: 1 / -1; /* make hero stretch the full layout width */
+}
+
 .heroBody {
   flex-wrap: wrap;
 }

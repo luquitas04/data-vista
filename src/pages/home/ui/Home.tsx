@@ -11,8 +11,6 @@ export const Home = () => {
 
   return (
     <DashboardLayout
-      badge={t("home.badge")}
-      status={t("dashboard.status")}
       title={t("home.title")}
       description={t("home.subtitle")}
       highlights={
